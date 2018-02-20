@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="formularz">
+
+        <form action="https://formspree.io/michal-mus@wp.pl" method="POST">
+
+            <label for="name">Imię:</label><br>
+            <input type="text" name="name" id="name"><br>
+
+            <label for="surname">Nazwisko:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="number">Numer tel:</label><br>
+            <input type="number" name="number" id="number"><br>
+
+            <div class="sex">Płeć<br>
+
+                <input type="radio" name="text" id="male">
+                <label for="male">Mężczyzna</label><br>
+
+                <input type="radio" name="text" id="female">
+                <label for="female">Kobieta</label><br>
+
+            </div>
+
+            <div class="city">Miasto:</div>
+
+            <select name="nazwa">
+		    <option>Kraków</option>
+		    <option>Warszawa</option>
+		    <option>Gdańsk</option>
+		    </select><br>
+
+            <label for="msg">Wiadomość:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+
+            <input type="checkbox" id="permission">
+            <label for="permission">Wyrażam zgodę na przetwarzanie moich danych osobowych</label><br>
+
+            <input type="submit" value="WYŚLIJ">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
